@@ -37,9 +37,12 @@ function App() {
   };
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mobile:p-3">
+      <div className="text-sm flex justify-center text-gray-400 ">
+        Copyright &copy; 2022 - Rizeenf
+      </div>
       <SearchButton changeTerm={searchBtn} />
-      <div className="grid grid-cols-3 gap-4">
+      <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2  gap-4">
         {images.map((image) => (
           <ImageCard key={image.id} image={image} />
         ))}
