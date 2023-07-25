@@ -7,4 +7,4 @@ This project created using:
 
 In this project, we learn about :
   - Components
-  - Fetching data from API
+  - Fetching data from API (using fetch)
